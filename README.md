@@ -4,17 +4,17 @@ This project detects fraudulent credit card transactions using Machine Learning 
 # Problem Statement
 Credit card fraud detection is crucial for financial institutions. The challenge lies in accurately identifying fraudulent transactions (which are rare) without mislabeling genuine ones. This project aims to:
 
-- Classify transactions as **Fraudulent (1)** or **Genuine (0)**
-- Handle **imbalanced dataset**
-- Maximize **recall** to catch most fraudulent cases
+- Classify transactions as Fraudulent (1)or Genuine (0)
+- Handle imbalanced dataset
+- Maximize recallto catch most fraudulent cases
 
----
+
 #Dataset
 - Dataset: [Credit Card Fraud Detection - Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - Rows: 284,807 transactions
 - Features: 30 numerical (anonymized), including `Time`, `Amount`, and `Class` (target)
 
----
+
 
 # Tech Stack
 
@@ -23,9 +23,9 @@ Credit card fraud detection is crucial for financial institutions. The challenge
 - Scikit-learn (Logistic Regression, train-test split, accuracy_score)
 - Jupyter Notebook / Google Colab
 
----
 
-#Approach
+
+# Approach
 
 1. Data Preprocessing
    - Loaded the dataset
