@@ -5,7 +5,7 @@ This project detects fraudulent credit card transactions using Machine Learning 
 Credit card fraud detection is crucial for financial institutions. The challenge lies in accurately identifying fraudulent transactions (which are rare) without mislabeling genuine ones. This project aims to:
 
 - Classify transactions as Fraudulent (1)or Genuine (0)
-- Handle imbalanced dataset
+- Worked on an imbalanced dataset using under-sampling and evaluated model performance primarily using accuracy and confusion matrix.
 - Maximize recallto catch most fraudulent cases
 
 
