@@ -7,6 +7,8 @@ Credit card fraud detection is crucial for financial institutions. The challenge
 - Classify transactions as Fraudulent (1)or Genuine (0)
 - Worked on an imbalanced dataset using under-sampling and evaluated model performance primarily using accuracy and confusion matrix.
 - Maximize recallto catch most fraudulent cases
+- Due to the highly imbalanced nature of the original dataset, under-sampling was applied before model training.
+
 
 
 #Dataset
