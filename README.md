@@ -47,9 +47,11 @@ Credit card fraud detection is crucial for financial institutions. The challenge
 
 ---
 
+
 ## Model Performance
-- Accuracy: ~99% (expected due to class imbalance)
-- Evaluation focused on Confusion Matrix and Recall
-- Note: Accuracy alone is not a reliable metric due to class imbalance.
+- Training Accuracy: ~94%
+- Test Accuracy: ~94%
+- Note: Accuracy is reported on an under-sampled balanced dataset.
+
 
 
