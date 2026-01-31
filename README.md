@@ -30,7 +30,7 @@ Credit card fraud detection is crucial for financial institutions. The challenge
 1. Data Preprocessing
    - Loaded the dataset
    - Checked for null values
-   - Handled class imbalance
+   - Worked on an imbalanced dataset and focused evaluation beyond accuracy.
 
 2. Exploratory Data Analysis
    - Count of fraud vs genuine
@@ -47,19 +47,9 @@ Credit card fraud detection is crucial for financial institutions. The challenge
 
 ---
 
-# Model Performance
+## Model Performance
+- Accuracy: ~99% (expected due to class imbalance)
+- Evaluation focused on Confusion Matrix and Recall
+- Note: Accuracy alone is not a reliable metric due to class imbalance.
 
-| Metric        | Score       |
-|---------------|-------------|
-| Accuracy      | ~99%        |
-| Precision     | High        |
-| Recall        | Very High   |
-
----
-
-# Sample Output
-
-```python
-🔴 The transaction is FRAUD
-🟢 The transaction is GENUINE
 
